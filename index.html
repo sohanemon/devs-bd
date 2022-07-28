@@ -14,12 +14,12 @@
   </head>
   <body>
     <!-- navbar section start -->
-    <div class="navbar bg-base-100 text-accent mb-16 shadow-sm">
+    <div class="container sm:px-10 mx-auto navbar bg-base-100 text-accent mb-4 shadow-sm">
       <div class="navbar-start">
-        <a class="normal-case text-xl font-semibold">DEVS-BD</a>
+        <a class="normal-case text-2xl font-semibold">DEVS-BD</a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+        <ul class="menu menu-horizontal p-0 text-lg font-semibold">
           <li><a href="#">Home</a></li>
           <li><a href="#">Courses</a></li>
           <li><a href="#">Deals</a></li>
@@ -63,10 +63,10 @@
     </div>
     <!-- navbar section end -->
     <!-- Carousel section start -->
-    <div class="container mx-auto carousel relative">
+    <div class="container  mx-auto carousel rounded-xl relative">
       <div
         id="slide1"
-        class="carousel-item flex justify-center relative w-full h-1/6"
+        class="carousel-item flex justify-center  relative w-full h-1/6"
       >
         <div class="w-full flex rounded-xl  relative bg-black">
           <img
@@ -182,7 +182,7 @@
     <!-- Overlays Heading And All -->
     <!-- Carousel section end  -->
     <!-- Discover section start -->
-    <div class="container mx-auto p-5">
+    <div class="container sm:px-10 mx-auto p-5">
       <h1
         class="text-2xl sm:text-3xl md:text-5xl font-semibold leading-10 text-center mt-16 mx-auto text-gray-900"
       >
@@ -330,7 +330,7 @@
     </div>
     <!-- Discover section end  -->
     <!-- Explore section start-->
-    <div class="container mx-auto p-4 md:flex">
+    <div class="container sm:px-10 mx-auto p-4 md:flex">
       <div class="basis-1/2">
         <img src="./images/working.png" alt="" />
       </div>
@@ -368,18 +368,18 @@
     <!-- Explore section end-->
     <!-- Registration start -->
     <div
-      class="container my-10 flex flex-col justify-center items-center mx-auto bg-blue-500 sm:rounded h-56 md:h-80 gap-3"
-    >
+      class="container sm:px-10 my-10 flex flex-col md:flex-row justify-center md:justify-evenly  items-center mx-auto bg-blue-500 sm:rounded h-56 md:h-80 gap-3"
+    ><div>
       <h1 class="text-2xl lg:text-5xl font-semibold leading-10 text-white">
         Ready to join
       </h1>
       <p
-        class="text-sm leading-normal text-center text-white mx-auto py-4 max-w-lg"
+        class="text-sm leading-normal md:text-left text-center text-white mx-auto py-4 max-w-lg"
       >
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout.
       </p>
-
+    </div>
       <label
         for="my-modal"
         class="btn btn-primary text-base bg-white font-semibold text-center hover:text-white text-blue-500 w-max"
@@ -433,7 +433,7 @@
     </div>
     <!-- Registration end -->
     <!-- Students Section Start -->
-    <div class="container mx-auto my-16">
+    <div class="container sm:px-10 mx-auto my-16">
       <h1
         class="text-2xl sm:text-3xl md:text-5xl font-semibold leading-10 text-center mt-16 mx-auto text-gray-900"
       >
@@ -525,7 +525,7 @@
     </div>
     <!-- Students Section End  -->
     <!-- Feedback section start -->
-    <div class="container mx-auto space-y-2">
+    <div class="container sm:px-10 mx-auto space-y-2">
       <h1
         class="text-2xl sm:text-3xl md:text-5xl font-semibold leading-10 text-center mt-16 mx-auto text-gray-900"
       >
@@ -538,7 +538,7 @@
         majority have suffered alteration.
       </p>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-4 mx-auto">
+        <div class="container sm:px-10 px-5 py-4 mx-auto">
           <div class="flex flex-wrap -m-4">
             <!-- single testimonial -->
             <div class="p-4 md:w-1/2 w-full">
@@ -677,7 +677,7 @@
 
     <!-- Feedback section end  -->
     <!-- Freq question section start -->
-    <div class="container mx-auto max-w-2xl space-y-2">
+    <div class="container sm:px-10 mx-auto max-w-2xl space-y-2">
       <h1
         class="text-2xl sm:text-3xl md:text-5xl font-semibold leading-10 text-center mt-16 mx-auto text-gray-900"
       >
@@ -746,7 +746,7 @@
     <br />
     <!-- Freq question section end  -->
     <!-- Company Section -->
-    <div class="container hidden lg:block mx-auto my-20">
+    <div class="container sm:px-10 hidden lg:block mx-auto my-20">
       <p class="text-5xl font-semibold leading-10 text-center text-gray-900">
         Trusted by over 800+ companies
       </p>
@@ -777,9 +777,10 @@
         <a href="#">Privacy Ploicy</a> | <a href="#">Terms of use</a>
       </p>
       <div class="flex gap-4 text-3xl mt-4">
-        <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-reddit"></i
-        ><i class="fa-brands fa-pinterest"></i
-        ><i class="fa-brands fa-github"></i>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-reddit"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
       </div>
     </footer>
   </body>

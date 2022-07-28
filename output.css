@@ -3084,6 +3084,11 @@ body[dir="rtl"] .checkbox:checked,
   padding-bottom: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -3170,6 +3175,10 @@ body[dir="rtl"] .checkbox:checked,
 
 .font-light {
   font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .normal-case {
@@ -3501,6 +3510,11 @@ body[dir="rtl"] .checkbox:checked,
     padding: 0px;
   }
 
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -3544,6 +3558,18 @@ body[dir="rtl"] .checkbox:checked,
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-5xl {
