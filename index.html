@@ -322,15 +322,15 @@
     </div>
     <!-- Discover section end  -->
     <!-- Explore section start-->
-    <div class="container mx-auto p-4 md:flex ">
+    <div class="container mx-auto p-4 md:flex">
       <div class="basis-1/2">
-        <img  src="./images/working.png" alt="" />
+        <img src="./images/working.png" alt="" />
       </div>
       <div class="p-5 basis-1/2 flex flex-col justify-center gap-6">
         <p class="text-xl sm:text-2xl md:text-5xl font-semibold text-gray-900">
           Explore The elearning Institute
         </p>
-        <p class=" text-sm sm:text-base md:text-lg  leading-tight">
+        <p class="text-sm sm:text-base md:text-lg leading-tight">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which....See More
@@ -344,7 +344,7 @@
             <p class="text-2xl font-semibold text-gray-900">600+</p>
             <p class="text-base font-medium text-gray-500">Expert member</p>
           </div>
-          <div ">
+          <div>
             <p class="text-2xl font-semibold text-gray-900">1k+</p>
             <p class="text-base font-medium text-gray-500">Rating & Review</p>
           </div>
@@ -359,13 +359,158 @@
     </div>
     <!-- Explore section end-->
     <!-- Registration start -->
-      <div class="container flex flex-col justify-center items-center mx-auto bg-blue-500 sm:rounded h-56 md:h-80 gap-3">
-        <h1 class="text-lg sm:text-2xl lg:text-5xl font-semibold leading-10 text-white">Ready to join</h1>
-        <p class="text-sm leading-normal text-center text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        
-    <button class="btn btn-primary text-base bg-white font-semibold text-center text-blue-500 w-max">Registration</button>
+    <div
+      class="container my-10 flex flex-col justify-center items-center mx-auto bg-blue-500 sm:rounded h-56 md:h-80 gap-3"
+    >
+      <h1
+        class="text-lg sm:text-2xl lg:text-5xl font-semibold leading-10 text-white"
+      >
+        Ready to join
+      </h1>
+      <p class="text-sm leading-normal text-center text-white">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout.
+      </p>
 
+      <label
+        for="my-modal"
+        class="btn btn-primary text-base bg-white font-semibold text-center hover:text-white text-blue-500 w-max"
+      >
+        Registration
+      </label>
+      <input type="checkbox" id="my-modal" class="modal-toggle" />
+      <div class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <div
+            class="rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
+          >
+            <h2
+              class="text-gray-900 text-lg text-center font-medium title-font mb-5"
+            >
+              Registration
+            </h2>
+            <div class="relative mb-4">
+              <label for="full-name" class="leading-7 text-sm text-gray-600"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="full-name"
+                name="full-name"
+                class="w-full bg-white rounded border border-blue-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full bg-white rounded border border-blue-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div class="modal-action">
+              <label for="my-modal" class="btn btn-error text-white"
+                >Cancel</label
+              >
+              <label for="my-modal" class="btn btn-primary text-white"
+                >Sign Up</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Registration end -->
+    <!-- Students Section Start -->
+    <div class="container mx-auto my-16">
+      <h1 class="text-xl font-semibold text-center text-gray-900">
+        Meet Our Successful Students
+      </h1>
+      <p class="text-sm leading-tight text-center text-gray-500">
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority have suffered alteration.
+      </p>
+      <!-- Students card -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- single student -->
+        <div class="card bg-base-100 shadow-md">
+          <figure class="px-5 pt-5">
+            <img
+              src="./images/student/student-1.png"
+              alt="Shoes"
+              class="rounded-sm w-full"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p
+              class="card-title text-xl font-semibold text-center text-gray-700"
+            >
+              Imran Hossain
+            </p>
+            <p class="text-gray-500">Graphic Designer</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-md">
+          <figure class="px-5 pt-5">
+            <img
+              src="./images/student/student-1.png"
+              alt="Shoes"
+              class="rounded-sm w-full"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p
+              class="card-title text-xl font-semibold text-center text-gray-700"
+            >
+              Imran Hossain
+            </p>
+            <p class="text-gray-500">Graphic Designer</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-md">
+          <figure class="px-5 pt-5">
+            <img
+              src="./images/student/student-1.png"
+              alt="Shoes"
+              class="rounded-sm w-full"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p
+              class="card-title text-xl font-semibold text-center text-gray-700"
+            >
+              Imran Hossain
+            </p>
+            <p class="text-gray-500">Graphic Designer</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-md">
+          <figure class="px-5 pt-5">
+            <img
+              src="./images/student/student-1.png"
+              alt="Shoes"
+              class="rounded-sm w-full"
+            />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p
+              class="card-title text-xl font-semibold text-center text-gray-700"
+            >
+              Imran Hossain
+            </p>
+            <p class="text-gray-500">Graphic Designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <button class="btn btn-primary my-8 text-white sm:hidden lg:block">
+          View All
+        </button>
+      </div>
+    </div>
+    <!-- Students Section End  -->
   </body>
 </html>

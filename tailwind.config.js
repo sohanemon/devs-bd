@@ -13,6 +13,7 @@ module.exports = {
           info: "#242424",
           accent: "#777777",
           footer: "#161616",
+          error: "#FF3333",
         },
       },
     ],
